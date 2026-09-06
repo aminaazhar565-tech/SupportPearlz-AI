@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/
+data/vector_store/
+logs/
+evaluation/results/*.json
+evaluation/results/*.csv

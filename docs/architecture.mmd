@@ -1,0 +1,13 @@
+flowchart LR
+A[Knowledge Base] --> B[LangChain Loaders]
+B --> C[Recursive Splitter]
+C --> D[Sentence Transformers]
+D --> E[(Persistent Chroma)]
+U[User Question] --> H[History Condenser]
+H --> R[Retriever + Relevance Gate]
+E --> R
+R --> P[Grounded Prompt]
+P --> L[OpenAI Chat Model]
+L --> S[Pydantic Structured Output]
+S --> V[Citation Validation]
+V --> UI[Streamlit UI]
