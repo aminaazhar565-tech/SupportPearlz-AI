@@ -1,3 +1,4 @@
+https://supportpearlz-ai-yaafircnqeg6pp8ocyznrn.streamlit.app/
 # SupportPearlz — LangChain RAG Customer Support Agent
 
 A clean Streamlit implementation of the SupportPearlz assignment. The app uses:
